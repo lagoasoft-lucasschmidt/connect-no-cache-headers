@@ -11,6 +11,6 @@ Just sets headers to not cache the request.
 ```
 ...
 app = express()
-app.use(require('connect-cache-headers')())
+app.use(require('connect-no-cache-headers')())
 ...
 ```
